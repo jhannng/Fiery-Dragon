@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="815.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.fierydragon.fierydragon.controller.HomeController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="826.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/HomePage.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="playButton" layoutX="200.0" layoutY="322.0" mnemonicParsing="false" onAction="#onClickPlayButton" opacity="0.0" prefHeight="55.0" prefWidth="163.0" />
+      <Button fx:id="helpButton" layoutX="419.0" layoutY="322.0" mnemonicParsing="false" opacity="0.0" prefHeight="55.0" prefWidth="163.0" />
+   </children>
+</AnchorPane>
